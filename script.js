@@ -1,12 +1,12 @@
 let counter = 0; // เราสร้างตัวแปรด้วย let ชื่อว่า counter และกำหนดค่าเริ่มต้นเป็น 0
 
-const visitFigma = () => {
+const กินไก่ย่าง = () => {
     counter++; // ทุกครั้งที่ Function นี้ถูกเรียกใช้ ค่าของ counter จะเพิ่มขึ้น 1
     const topic = document.getElementById("blog-topic");
     const content = document.getElementById("blog-content");
 
-    topic.innerHTML = "This is a fake Figma! 📝";
-    content.innerHTML = "Today we're going to use figma for designing your first webapge. <br/>clicked time is " + counter;
+    topic.innerHTML = "ร้านไก่ย่าง!";
+    content.innerHTML = "Today we're going to use ไก่ย่าง for ข้าวเช้า. <br/>ร้านที่ " + counter;
 
-    topic.style.color = "black"
+    topic.style.color = "rgb"
 }
